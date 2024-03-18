@@ -1,0 +1,107 @@
+body
+{
+	background-color: rgb(148, 184, 189);
+	font-family: Verdana;
+}
+.zagolowok
+{
+   text-align: center;
+}
+.hr-line
+{
+    margin: 40px 0px 0px 0px;
+    border-width: 3px;
+}
+  .about_grid
+{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 20px;
+}
+.about p
+{
+    opacity: 1;
+    color: black;
+}
+.about h2
+{
+    opacity: 0.5;
+    color: black;
+}
+.cart
+{
+    background-color: white;
+    width: 70%;
+    margin-top: 5%;
+    border-radius: 5rem;
+    opacity: 0.8;
+}
+@media screen and (max-width: 1920px)
+{
+	.about .cart{
+		margin-top: 10%;
+	}
+}
+.cart_right
+{
+    background-color: white;
+    width: 70%;
+    margin-top: 5%;
+    border-radius: 5rem;
+    opacity: 0.8;
+    float: right;
+    margin-left: 30%;
+}
+.about .left
+{
+    float: left;
+    width: 40%;
+    height: auto;
+    margin-left: 2%;
+    border-radius: 5rem;
+    opacity: 0.9;
+    padding: 15px 15px 15px 0px;
+}
+.about .right
+{
+    float: right;
+    width: 40%;
+    height: auto;
+    border-radius: 5rem;
+    opacity: 0.9;
+    padding: 15px;
+}
+.about .text_about
+{
+    overflow: hidden;
+    padding: 25px;
+    margin-top: 3%;
+}
+      @media screen and (max-width: 720px)
+      {
+        .about .left
+        {
+            max-width: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            float: none;
+        }
+        .about .right
+        {
+            max-width: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            float: none;
+        }
+      }
+	  .element-animation {
+		
+		/* Скроем элемент в начальном состоянии */
+		opacity: 0;
+	  }
+	  .element-animation.element-show {
+		opacity: 1;
+		transition: opacity 1s;
+	  }

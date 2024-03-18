@@ -1,0 +1,37 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 203, 240);
+	font-family: Verdana;
+}
+.profile_grid
+{
+    display: grid;
+    grid-template-columns: repeat(2,250px);
+    grid-gap: 20px;
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+}
+.button
+{
+    background-color: rgb(115, 35, 189);
+    width: 100px;
+    height: 50px;
+    border-radius: 1rem;
+}
+.text
+{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+.mail
+{
+    color: rgb(172, 93, 116);
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
